@@ -5,7 +5,7 @@ import ParallaxScrollView from "@/components/ParallaxScrollView";
 import { ThemedText } from "@/components/ThemedText";
 import { ThemedView } from "@/components/ThemedView";
 
-const CreditCardScreen = () => {
+const MoreScreen = () => {
   return (
     <ParallaxScrollView
       headerBackgroundColor={{ light: "#A1CEDC", dark: "#1D3D47" }}
@@ -54,7 +54,7 @@ const CreditCardScreen = () => {
   );
 };
 
-export default CreditCardScreen;
+export default MoreScreen;
 
 const styles = StyleSheet.create({
   titleContainer: {
